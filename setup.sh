@@ -8,7 +8,8 @@ function launch_polybar(){
   fi
 }
 
-bash ./install.sh && 
+bash $SCRIPTDIR/install.sh && 
 cp $SCRIPTDIR/config ~/.config/i3/config && 
+cp $SCRIPTDIR/.bashrc ~/.bashrc
 i3-msg reload && 
 launch_polybar
