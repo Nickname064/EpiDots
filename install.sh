@@ -5,7 +5,10 @@
 
 pkgs=(
   libnotify dunst kitty
-  polybar bat rofi neovim neovide gh
+
+  polybar bat rofi neovim neovide 
+  gh lazygit
+
   nerdfonts
 )
 
@@ -27,5 +30,4 @@ notify-send "Installation complete !"
 #=============Run jobs=========================================
 #==============================================================
 
-nohup polybar &
 
